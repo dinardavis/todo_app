@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #d9dff3;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 300px;
+  border-radius: 45px;
+  background-color: #f8fafe;
+  padding: 30px 15px 0;
+}
+
+.list-container {
+  width: 100%;
+
+}
+
+.list-item {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 7px;
+  margin-bottom: 7px;
+}
