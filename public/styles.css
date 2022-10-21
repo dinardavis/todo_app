@@ -19,18 +19,67 @@ body {
   width: 300px;
   border-radius: 45px;
   background-color: #f8fafe;
-  padding: 30px 15px 0;
+  padding: 30px 25px 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, .2);
+}
+
+.add-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: #2d67ee;
+  color: #fff;
+  font-size: 2em;
 }
 
 .list-container {
   width: 100%;
-
 }
 
 .list-item {
+  display: flex;
+  align-items: center;
   width: 100%;
   background-color: #ffffff;
-  padding: 10px;
-  border-radius: 7px;
+  padding: 15px;
+  border-radius: 9px;
   margin-bottom: 7px;
 }
+
+.list-item:hover > .trash-icon {
+  opacity: 1;
+}
+
+.category-marker {
+  height: 20px;
+  width:20px;
+  border-radius: 50%;
+  border: 1.5px solid #3b6de5;
+  margin-right: 15px;
+}
+
+.trash-icon {
+  margin-left: auto;
+  color: #a3a7bf;
+  font-size: 1.2em;
+  opacity: 0;
+}
+
+
+
